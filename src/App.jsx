@@ -10,6 +10,9 @@ import ProductList from "./ProductList/ProductList";
 import Form from "./Form/Form";
 import UncontrolledComponent from "./Form/UncontrolledComponent";
 import Calculator from "./Calculator/Calculator";
+import Inheritance from "./CompositionvsInheritance/Inheritance";
+import Composition from "./CompositionvsInheritance/Composition";
+import FilterableProductTable from "./ThinkingInReact/FilterableProductTable";
 
 function App() {
   // const [name, setName] = useState("Casio");
@@ -28,7 +31,10 @@ function App() {
       {/* <ProductList /> */}
       {/* <Form /> */}
       {/* <UncontrolledComponent /> */}
-      <Calculator />
+      {/* <Calculator /> */}
+      {/* <Inheritance /> */}
+      {/* <Composition /> */}
+      <FilterableProductTable />
     </div>
   );
 }
