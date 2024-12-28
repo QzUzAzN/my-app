@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./App.css";
 import Clock from "./Clock";
 import BareInput from "./BareInput";
 import Layout from "./Layout";
@@ -13,6 +12,11 @@ import Calculator from "./Calculator/Calculator";
 import Inheritance from "./CompositionvsInheritance/Inheritance";
 import Composition from "./CompositionvsInheritance/Composition";
 import FilterableProductTable from "./ThinkingInReact/FilterableProductTable";
+import User from "./Hook/User";
+import RuleOfHook from "./Hook/RuleOfHook";
+import AutoBatching from "./Hook/AutoBatching";
+import Cart from "./Hook/Header/Cart";
+import Navigation from "./Hook/Header/Navigation";
 
 function App() {
   // const [name, setName] = useState("Casio");
@@ -34,7 +38,12 @@ function App() {
       {/* <Calculator /> */}
       {/* <Inheritance /> */}
       {/* <Composition /> */}
-      <FilterableProductTable />
+      {/* <FilterableProductTable /> */}
+      {/* <User /> */}
+      {/* <RuleOfHook /> */}
+      {/* <AutoBatching /> */}
+      <Cart />
+      <Navigation />
     </div>
   );
 }
